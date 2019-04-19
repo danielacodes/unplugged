@@ -111,6 +111,8 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
+  color: #e2e3ed;
+  text-align: left;
 }
 
 ul, ol {
@@ -122,6 +124,12 @@ ul, ol {
 a {
   color: #e2e3ed;
   text-decoration: none;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 2.25em;
 }
 
 h2 {
@@ -168,6 +176,7 @@ header, footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #202322;
 }
 
 .content-wrapper {
@@ -198,11 +207,16 @@ header figure {
 
 .header-divider {
   width: 100%;
+  background: #3a3a3a;
+  height: 1px;
 }
 
 header nav {
   display: flex;
-  /*justify-content: space-around;*/
+  font-weight: 500;
+  font-size: 1.125em;
+  text-transform: uppercase;
+  justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
   width: 60%;
@@ -211,8 +225,8 @@ header nav {
 header nav ul {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  width: 50%;
+  width: 100%;
+
 }
 
 /* ---------- Mobile Styles - Homepage ---------- */
@@ -225,11 +239,41 @@ header nav ul {
   padding-top: 50px;
 }
 
+/* ---------------- FORM STYLES ---------------- */
+
+aside .form {
+  margin-top: 30px;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+}
+
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/*  ///////////////// end of button styles /////// */
+
 aside {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .features {
@@ -262,10 +306,11 @@ aside {
   align-items: center;
   flex-flow: row wrap;
   padding-top: 50px;
+  background-color: #2a423a;
 }
 
 .reviews h3 {
-  width: 50%;
+  width: 57%;
 }
 
 /* Footer styles */
@@ -319,6 +364,7 @@ footer p {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .contact-section {
@@ -326,6 +372,7 @@ footer p {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 
@@ -336,6 +383,7 @@ footer p {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .faq .content-wrapper {
