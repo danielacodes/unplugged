@@ -286,7 +286,8 @@ aside {
 }
 
 .features article {
-  width: 60%;
+  width: 55%;
+  margin: 30px 0;
 }
 
 .features .features-items {
@@ -294,11 +295,17 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  flex-flow: row wrap;
 }
 
-.features p {
-  /* margin: 0; */
+.features .features-items p {
+  text-align: center;
+  margin: 0;
+}
+
+.features i {
+  font-size: 3.75em;
+  margin-top: 15%;
+  margin-bottom: 15%;
 }
 
 .reviews {
@@ -577,14 +584,20 @@ footer p {
 
     .features article {
       display: flex;
-      justify-content: space-around;
+      justify-content: center;
       align-items: center;
-      flex-flow: row wrap;
-      flex-basis: 230px;
+      flex-wrap: column wrap;
+      flex-basis: 50%;
     }
 
     .features .features-item-description {
       width: 50%;
+    }
+
+    .features i {
+      font-size: 4.5em;
+      margin-top: 15%;
+      margin-bottom: 15%;
     }
 
 /* Reviews */
@@ -732,11 +745,11 @@ footer p {
 /* Features */
 
     .features h2 {
-      width: 880px;
+      width: 70%;
     }
 
     .features article {
-      flex-basis: 180px;
+      flex-basis: 33%;
     }
 
 /* Reviews */
